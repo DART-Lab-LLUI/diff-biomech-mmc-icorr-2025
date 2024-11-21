@@ -7,7 +7,7 @@
 <sup>1</sup>Data Analytics & Rehabilitation Technology (DART Lab), Lake Lucerne Institute, Vitznau, Switzerland <br>
 <sup>2</sup>Neuro-X Institute, EPFL, Lausanne, Switzerland <br>
 <sup>3</sup>Dept of Biomedical Engineering, Northwestern University, Chicago, IL <br>
-<sup>4</sup>RELab, ETH, Zurich, Switzerland <br>
+<sup>4</sup>Rehabilitation Engineering Laboratory (RELab), ETH, Zurich, Switzerland <br>
 <sup>5</sup>Shirley Ryan AbilityLab, Dept of PM&R, Northwestern University, Chicago, IL <br>
 <sup>*</sup>co-first author <br>
 <sup>†</sup>co-senior author <br>
@@ -19,17 +19,13 @@
 > This repository includes the analysis code of our ICORR 2025 Paper.
 
 # Abstract
-*Background*.
-Combining differentiable biomechanical modeling with Markerless Motion Capture (MMC) offers a promising approach to motion capture in clinical settings, requiring minimal equipment and effort for data collection. Currently, marker-based Optical Motion Capture (OMC) paired with biomechanical modeling is considered the most precise and accurate method for measuring human movement kinematics.
+Marker-based Optical Motion Capture (OMC) paired with biomechanical modeling is currently considered the most precise and accurate method for measuring human movement kinematics. Combining differentiable biomechanical modeling with Markerless Motion Capture (MMC) offers a promising approach to motion capture in clinical settings, requiring only minimal equipment, such as synchronized webcams, and minimal effort for data collection. 
 
-*Methods*.
-This study compares key kinematic outcomes from biomechanically modeled MMC and OMC data in 15 stroke patients performing the drinking task. 
+This study compares key kinematic outcomes from biomechanically modeled MMC and OMC data in 15 stroke patients performing the drinking task, a functional task recommended for assessing upper limb movement quality. 
 
-*Results*.
-We observed a high level of agreement in kinematic trajectories between MMC and OMC, as indicated by high correlations between systems (median $r > 0.95$ for majority of kinematics) and median $\text{RMSE}$ values ranging from approximately $2^\circ$ – $5^\circ$ for joint angles, $0.04 \, \text{m/s}$ for end-effector velocity, and $6 \, \text{mm}$ for trunk displacement). Trial-to-trial biases between OMC and MMC were consistent within patient sessions, with interquartile ranges of bias around $1-3^\circ$ for joint angles, $0.01m/s$ in end-effector velocity, and approximately $3 \, \text{mm}$ for trunk displacement. 
+We observed a high level of agreement in kinematic trajectories between MMC and OMC, as indicated by high correlations (median $r > 0.95$ for the majority of kinematic trajectories) and median $\text{RMSE}$ values ranging from $2^\circ$–$5^\circ$ for joint angles, $0.04 \, \text{m/s}$ for end-effector velocity, and $6 \, \text{mm}$ for trunk displacement. Trial-to-trial biases between OMC and MMC were consistent within participant sessions, with interquartile ranges of bias around $1-3^\circ$ for joint angles, $0.01m/s$ in end-effector velocity, and approximately $3 \, \text{mm}$ for trunk displacement. 
 
-*Conclusion*.
-Our findings indicate that MMC for arm tracking is approaching the accuracy and precision of marker-based methods, supporting its potential for use in clinical settings. MMC could provide valuable insights into movement rehabilitation in stroke patients, potentially enhancing the effectiveness of rehabilitation strategies.
+Our findings indicate that our MMC for arm tracking is approaching the accuracy of marker-based methods, supporting its potential for use in clinical settings. MMC could provide valuable insights into movement rehabilitation in stroke patients, potentially enhancing the effectiveness of rehabilitation strategies. 
 
 # The Code
 Will be hosted here after the publication.
